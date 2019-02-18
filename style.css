@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'warcraftFont' ;
+    src: url('./fonts/LifeCraft_Font.ttf');
+}
+
+*{
+    margin:0;
+    box-sizing: border-box;
+    font-size:0;
+}
+body{
+    height:100vh;
+    width:100vw;    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: 'warcraftFont';
+    color: yellow;
+    
+}
+
+#restart_button {
+    font-size: 36px;
+    text-align: center;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.victory_container {
+    display: none;
+}
+
+.victory_screen {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    position: absolute;
+    margin: 0;
+}
+
+#victory {
+    font-size: 100px;
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#win {
+    background-image: url('./images/garrosh_victory.gif');
+    background-size: 100% 100%;
+    height: 50%;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+#game-logo {
+    background-image: url('./images/wow_logo.png');
+    background-size: 100% 100%;
+    top: 1.5%;
+    height: 13%;
+    width: 20%;
+    margin: auto;
+    position: absolute;
+
+}
+
+.main-container{
+    height:100%;
+    width:100%;
+    background-image: url('./images/illidan.gif');
+    background-size: cover; 
+}
+
+header{
+    font-size: 5vw;
+    height:15%;
+    width:100%;
+
+}
+.game-container{
+    height:85%;
+    width:100%;
+
+}
+.nav{
+    padding:2%;
+    height:100%;
+    width:20%;
+
+    display:inline-block;
+    vertical-align: top;
+}
+.word-list{
+    font-size:2.5vw;
+    color: darkred;
+}
+.word{
+    margin: 12px 0;
+    font-size:2vw;
+    color: yellow;
+}
+.board{
+    
+    display:inline-block;
+    height:100%;
+    width:80%;
+
+}
+
+.strikeThrough {
+    color: darkred; 
+    text-decoration: line-through;
+}
+
+.row{
+    
+    height:10%;
+    width:100%;
+    
+}
+.box-container{
+    text-align: center;
+    height:100%;
+    width:10%;
+
+    display:inline-block;
+    vertical-align: top;
+}
+.box{
+    height:80%;
+    width:80%;
+    vertical-align: middle;
+    font-size:3vw;
+}
+
+.font-size{
+    font-size: 2rem;
+}
+.mouse-down{
+    background-color:black;
+    border:solid white;
+    
+}
+.mouse-enter{
+    background-color: black;
+    border:solid white;
+}
+.victory{
+    background-color:rebeccapurple;
+    border: solid yellow;
+}
